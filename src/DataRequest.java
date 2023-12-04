@@ -73,7 +73,7 @@ public class DataRequest {
         }
     }
 
-    // Метод для вывода в консоль получившихля значений
+    // Метод для вывода в консоль получившихcя значений
     private void OutPutData() {
         System.out.println("\nFirst name \t- \t" + firstName + "\n" + "Last name \t- \t" + lastName + "\n" + "Middle name \t- \t" + middleName + "\n" + "Year of birth \t- \t" + dateOfBirth + "\n" + "Number phone \t- \t" + numberPhone + "\n" + "Gender   \t- \t" + gender);
     }
@@ -97,7 +97,7 @@ public class DataRequest {
         try (FileWriter fw = new FileWriter(file, true)) {
             fw.write("<" + firstName + "> " + "<" + lastName + "> " + "<" + middleName + "> " + "<" + dateOfBirth + "> " + "<" + numberPhone + "> " + "<" + gender + ">\n");
         } catch (Exception e) {
-            System.out.println("Чтото пошло не так!");
+            System.out.println("Что то пошло не так!");
         }
     }
 
